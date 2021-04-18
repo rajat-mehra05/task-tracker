@@ -83,6 +83,7 @@ const TaskContainer = () => {
               variant="contained"
               type="submit"
               onClick={addToDo}
+              disabled={!todoInput}
               style={{
                 display: "flex",
                 justifyContent: "center",
