@@ -1,12 +1,13 @@
-import firebase from "firebase";
+import firebase from "firebase/app";
+import "firebase/auth"; // for authentication
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDDxL3T2LnLDNMAJ6RmcfbRicpDVAh53hs",
-  authDomain: "task-tracker-c069d.firebaseapp.com",
-  projectId: "task-tracker-c069d",
-  storageBucket: "task-tracker-c069d.appspot.com",
-  messagingSenderId: "1069110333713",
-  appId: "1:1069110333713:web:3bf15a03e6cb851ece3cb0",
+  apiKey: "AIzaSyBY04OWOIdixT2vI_lSOOR9jB3wts3DrVM",
+  authDomain: "task-tracker-cdad2.firebaseapp.com",
+  projectId: "task-tracker-cdad2",
+  storageBucket: "task-tracker-cdad2.appspot.com",
+  messagingSenderId: "328905720914",
+  appId: "1:328905720914:web:b531f33cee537a4f424b8b",
 };
 
 firebase.initializeApp(firebaseConfig);
